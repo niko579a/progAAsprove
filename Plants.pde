@@ -14,4 +14,7 @@ class Plants extends World{
     h = image.height;
     w = image.width;
   }
+  
+  void display(){
+  }
 }

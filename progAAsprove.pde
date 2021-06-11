@@ -9,4 +9,7 @@ void draw(){
 }
 
 void keyPressed(){
+  if(keyCode == 'H'){
+    Dog dog = new Dog(float speed_, float x_, float y_, PImage image_("dog.png"));
+  }
 }
