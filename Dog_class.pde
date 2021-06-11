@@ -1,3 +1,5 @@
+verden.name.add(dog);
+
 class Dog extends Animals{
   Dog(float speed_, float x_, float y_, PImage image_){
     super(speed_, x_, y_, image_);

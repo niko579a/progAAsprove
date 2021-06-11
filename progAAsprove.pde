@@ -1,3 +1,5 @@
+World verden = new World();
+
 void setup(){
   size(1000,700);
   background(31, 135, 26);
