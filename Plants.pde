@@ -17,4 +17,12 @@ class Plants extends World{
   
   void display(){
   }
+  
+  void grow(){
+   if(w < maxSize){
+      h += growthSpeed;
+      w += growthSpeed;
+      y -= growthSpeed/2;
+    }
+  }
 }

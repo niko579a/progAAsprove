@@ -1,10 +1,12 @@
 class Animals extends World{
 //Data
-  float speed;
+  float speedX;
+  float speedY;
 
 //Konstruktør
-  Animals(float speed_, float x_, float y_, PImage image_){
-    speed = speed_;
+  Animals(float speedX_, float speedY_, float x_, float y_, PImage image_){
+    speedX = speedX_;
+    speedY = speedY_;
     x = x_;
     y = y_;
     image = image_;
@@ -12,5 +14,26 @@ class Animals extends World{
   
 //Metoder
   void display(){
+  }
+  
+  void move(){
+    if(x > width){
+      speedX = -speedX;
+    }
+    
+    if(x < 0){
+      speedX = (speedX * -1);
+    }
+    
+    if(y < 0){
+      speedY = (speedY * -1);
+    }
+    
+    if(y > height){
+      speedY = -speedY;
+    }
+    
+    x += speedX;
+    y += speedY;
   }
 }
