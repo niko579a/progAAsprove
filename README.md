@@ -1,6 +1,6 @@
 # Programmerings Årsprøve
 
-#1. Krav
+# 1. Krav
 ##Kravspecifikationer:
 * Der skal være en klasse, der hedder krav.
 * Når man klikker på en tasten D skal der tegnes hund.
@@ -13,37 +13,37 @@
 * Hunden skal bevæge sig hurtigere når den bevæger sig over vandpyt.
 * Buskene og træerne skal vokse indtil de når en vis højde.
 
-##Designspecifikationer
+## Designspecifikationer
 * Dyrene, planterne og ”terrænet” er billeder hentet fra nettet. 
 * Grøn baggrund for at simulere græs.
 
-#2. Analyse
-##List of things
-###Dyrene:
+# 2. Analyse
+## List of things
+### Dyrene:
 Der laves en hund og en kat, der bevæger sig tilfældigt rundt på skærmen. De kommer frem når man enten klikker D eller C. Begge dyr bevæger sig med forskellige hastigheder. Katten vil også bevæge sig langsommere hvis den bevæger sig over en vandpyt. På samme måde vil hunden bevæge sig hurtigere hvis bevæger sig over en vandpyt. 
 
-###Planterne: 
+### Planterne: 
 Træerne og buskene vil blive ”plantet” tilfældige steder på skærmen når der klikkes enten T eller B. Planterne vil vokse med to forskellige, konstante, hastigheder indtil de når en bestemt størrelse.
 
-###Terrænet:
+### Terrænet:
 Terrænet er en vandpyt, der placeres tilfældige steder på skærmen når man klikker på P.
 
-###Klasser:
+### Klasser:
 Klassen ”verden” skal indeholde alle delene af programmet, hvor de enkelte dele kan udvide på denne klasse.
 
-##Aktivitets diagram
+## Aktivitets diagram
 ![flowchart](https://github.com/niko579a/progAAsprove/blob/master/readmeFiler/flowchart%20.png?raw=true)
 
-#3. Design
-##Klasse/ metode liste
+# 3. Design
+## Klasse/ metode liste
 ![klasse/ metode liste](https://github.com/niko579a/progAAsprove/blob/master/readmeFiler/klasse:metode%20liste.png?raw=true)
 
-##Kollaborationsdiagram
+## Kollaborationsdiagram
 ![Kollaborationsdiagram](https://github.com/niko579a/progAAsprove/blob/master/readmeFiler/Kollaborationsdiagram.png?raw=true)
 
-##Rollediagram
+## Rollediagram
 ![rollediagram](https://github.com/niko579a/progAAsprove/blob/master/readmeFiler/rollediagram.png?raw=true)
 
-##Klassediagram
+## Klassediagram
 ![klassediagram](https://github.com/niko579a/progAAsprove/blob/master/readmeFiler/klassediagram.png?raw=true)
 
