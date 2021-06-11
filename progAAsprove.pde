@@ -10,6 +10,10 @@ void draw(){
 
 void keyPressed(){
   if(keyCode == 'H'){
-    Dog dog = new Dog(float speed_, float x_, float y_, PImage image_("dog.png"));
+    Dog dog = new Dog(10, random(0, width), random(0, height), loadImage("dog.png"));
+  }
+  
+  if(keyCode == 'C'){
+    Cat cat = new Cat(5, random(0, width), random(0, height), loadImage("cat.png"));
   }
 }
