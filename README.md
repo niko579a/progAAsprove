@@ -1,7 +1,7 @@
 # Programmerings Årsprøve
 
 # 1. Krav
-##Kravspecifikationer:
+## Kravspecifikationer:
 * Der skal være en klasse, der hedder krav.
 * Når man klikker på en tasten D skal der tegnes hund.
 * Når der klikkes på tasten C skal der tegnes en kat.
