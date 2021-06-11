@@ -45,5 +45,5 @@ Klassen ”verden” skal indeholde alle delene af programmet, hvor de enkelte d
 ![rollediagram](https://github.com/niko579a/progAAsprove/blob/master/readmeFiler/rollediagram.png?raw=true)
 
 ## Klassediagram
-![klassediagram](https://github.com/niko579a/progAAsprove/blob/master/readmeFiler/klassediagram.png?raw=true)
+![klassediagram](https://github.com/niko579a/progAAsprove/blob/master/readmeFiler/klasse%20diagram.png?raw=true)
 
