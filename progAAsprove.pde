@@ -5,4 +5,8 @@ void setup(){
 
 void draw(){
   clear();
+  background(31, 135, 26);
+}
+
+void keyPressed(){
 }
