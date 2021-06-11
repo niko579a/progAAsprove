@@ -16,11 +16,13 @@ void keyPressed(){
   if(keyCode == 'D'){
     Dog dog = new Dog(10, 12, random(0, width), random(0, height), loadImage("dog.png"));
     verden.dele.add(dog);
+    verden.dyr.add(dog);
   }
   
   if(keyCode == 'C'){
     Cat cat = new Cat(5, 3, random(0, width), random(0, height), loadImage("cat.png"));
     verden.dele.add(cat);
+    verden.dyr.add(cat);
   }
   
   if(keyCode == 'T'){

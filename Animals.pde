@@ -2,6 +2,7 @@ class Animals extends World{
 //Data
   float speedX;
   float speedY;
+  boolean overTerrain = false;
 
 //Konstruktør
   Animals(float speedX_, float speedY_, float x_, float y_, PImage image_){
@@ -33,7 +34,12 @@ class Animals extends World{
       speedY = -speedY;
     }
     
-    x += speedX;
-    y += speedY;
+    if(overTerrain == false){
+      x += speedX;
+      y += speedY;
+    } else{
+      x += (speedX / 6);
+      y += (speedY / 6);
+    }
   }
 }

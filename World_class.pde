@@ -1,6 +1,7 @@
 class World{
 //Data
   ArrayList<World> dele = new ArrayList<World>();
+  ArrayList<Animals> dyr = new ArrayList<Animals>();
   Float x;
   Float y;
   PImage image;
@@ -12,6 +13,7 @@ class World{
       arrayPlads.display();
       arrayPlads.move();
       arrayPlads.grow();
+      arrayPlads.inTerrain(dyr);
     }
  }
  
@@ -19,5 +21,8 @@ class World{
  }
  
  void grow(){
+ }
+ 
+ void inTerrain(ArrayList<Animals> animals){
  }
 }
