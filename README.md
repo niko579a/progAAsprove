@@ -9,8 +9,8 @@
 * Når der klikkes på T, skal der tegnes et træ.
 * Når der klikkes på B, skal der tegnes en busk.
 * Dyrene skal bevæge sig tilfældigt rundt på skærmen.
-* Katten skal bevæge sig langsommere når den bevæger sig over vandpyt.
-* Hunden skal bevæge sig hurtigere når den bevæger sig over vandpyt.
+* Katten skal hastighed når den bevæger sig over vandpyt.
+* Hunden skal ændre hastighed når den bevæger sig over vandpyt.
 * Buskene og træerne skal vokse indtil de når en vis højde.
 
 ## Designspecifikationer
@@ -20,7 +20,7 @@
 # 2. Analyse
 ## List of things
 ### Dyrene:
-Der laves en hund og en kat, der bevæger sig tilfældigt rundt på skærmen. De kommer frem når man enten klikker D eller C. Begge dyr bevæger sig med forskellige hastigheder. Katten vil også bevæge sig langsommere hvis den bevæger sig over en vandpyt. På samme måde vil hunden bevæge sig hurtigere hvis bevæger sig over en vandpyt. 
+Der laves en hund og en kat, der bevæger sig tilfældigt rundt på skærmen. De kommer frem når man enten klikker D eller C. Begge dyr bevæger sig med forskellige hastigheder. Kattenn og hunden vil også bevæge sig langsommere hvis den bevæger sig over en vandpyt.
 
 ### Planterne: 
 Træerne og buskene vil blive ”plantet” tilfældige steder på skærmen når der klikkes enten T eller B. Planterne vil vokse med to forskellige, konstante, hastigheder indtil de når en bestemt størrelse.
